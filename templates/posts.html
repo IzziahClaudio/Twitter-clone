@@ -38,7 +38,7 @@
                   <div class = "datetime">{{post.created_at }}<br /></div><br>
                    <div class="body">{{ post.body }}<br /></div>
                    {% if post.image.url %} 
-                   <img src="{{post.image.url}}" alt="" style="width:35vw; height:35vw">
+                   <img src="{{post.image.url}}" alt="" style="width:10vw; height:10vw;">
                    {% endif %}
                    <div class="like">
                     <a href="/like/{{post.id}}/"><img src="{% static 'img/like.svg' %}" alt="" style="width:2vw"></a>

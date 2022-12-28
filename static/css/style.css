@@ -12,7 +12,6 @@ body {
 }
 .content {
    max-width: 600px;
-   height: 100%;
    margin: 0 auto;
    border-left: 1px solid;
    border-right: 1px solid;
@@ -106,7 +105,7 @@ Post
 .posts li .name_body .datetime {
    color: black;
 }
- 
+
 @media screen and (max-width: 500px) {
  
    .posts li .name_body .name {
@@ -114,9 +113,10 @@ Post
    }  
 }
 h1 {
-   margin-left: 230px;
+   margin-left: 12vw;
 }
  
 .twitterlogo {
    font-size: 800;
 }
+
